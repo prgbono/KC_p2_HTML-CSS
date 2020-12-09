@@ -1,0 +1,44 @@
+/* :root {
+  --header-height: 3rem;
+  --max-width: 1280px; 
+} */
+
+body {
+  background-color: #000;
+  color: #fff;
+  background: url('../assets/movies/rocknrolla.jpg') top center no-repeat;
+  /* padding-top: var(--header-height); */
+}
+
+.container {
+  border: solid 1px red;
+  display: grid;
+
+  /* Footer at bottom */
+  min-height: 100vh;
+
+  /* Grilla */
+  grid-template-columns: 100%;
+  grid-template-rows: 
+    12vh
+    1fr
+    10vh;
+}
+
+.login {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+header > img {
+  padding-left: 1rem; 
+  padding-top: 1rem; 
+}
+
+main > form {
+  background-color: rgba(12, 12, 12, 0.5);
+  margin: 25% 25%;
+  padding: 3rem;
+}
+
