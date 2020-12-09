@@ -1,44 +1,61 @@
-/* :root {
-  --header-height: 3rem;
-  --max-width: 1280px; 
-} */
-
-body {
-  background-color: #000;
-  color: #fff;
-  background: url('../assets/movies/rocknrolla.jpg') top center no-repeat;
-  /* padding-top: var(--header-height); */
+a,
+a:link,
+a:visited,
+a:focus {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
 .container {
-  border: solid 1px red;
-  display: grid;
-
-  /* Footer at bottom */
+  background-color: #000;
+  color: #fff;
+  background: url('../assets/movies/rocknrolla.jpg') center center no-repeat;
+  background-size: cover; 
   min-height: 100vh;
+}
 
-  /* Grilla */
-  grid-template-columns: 100%;
-  grid-template-rows: 
-    12vh
-    1fr
-    10vh;
+.logo {
+  align-self: flex-start;
+  margin-left: 2vw;
+  margin-top: 2vh;
 }
 
 .login {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-header > img {
-  padding-left: 1rem; 
-  padding-top: 1rem; 
-}
-
-main > form {
   background-color: rgba(12, 12, 12, 0.5);
-  margin: 25% 25%;
-  padding: 3rem;
+  margin: 5% 10%;
+  padding-bottom: 1.5rem;
 }
+
+.login input{
+  width: 80%;
+  background: #333;
+  border-radius: 5px;
+  color: white;
+  line-height: 2rem;
+  margin-top: 0.75rem;
+}
+
+.login input[type='submit'] {
+  background: linear-gradient(to right, #ee6262, #f54040, rgb(255, 0, 0)); 
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0px;  
+}
+
+.title{
+  font-size: 1.3rem;
+}
+
+
 
