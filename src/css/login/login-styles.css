@@ -1,0 +1,8 @@
+a,
+a:link,
+a:visited,
+a:focus {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}

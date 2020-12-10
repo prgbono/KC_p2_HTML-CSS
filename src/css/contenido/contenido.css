@@ -1,0 +1,8 @@
+.navbar {
+  position: fixed;
+  background-color: lightblue;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: var(--navbar-height); */
+}
