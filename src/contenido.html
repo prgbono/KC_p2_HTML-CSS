@@ -12,18 +12,26 @@
 <body>
   <header>
     <nav class="navbar">
-      <div><img src="./assets/logo.png" alt="Logo"/></div>
-      <ul>
+      <div class="logo">
+        <img src="./assets/logo.png" alt="Logo"/>
+      </div>
+      
+      <form class="form-buscador">
+        <!-- FIXME: sin funcionalidad -->
+        <input type="text" placeholder="Buscar..." name="buscador" id="buscador">
+        <label for="buscador"></label>  
+      </form>
+
+      <input type="checkbox" id="burger-icon" />
+      <label for="burger-icon" class="burger-icon-label"></label>
+
+      <ul class="navbar-list">
         <!-- TODO: Add icons to the navbar and the Grid tecnique for not loosing them -->
-        <li>Novedades</li>
-        <li>Series</li>
-        <li>Películas</li>
-        <li>Favoritos</li>
-        <li>
-          <!-- FIXME: sin funcionalidad -->
-          <input type="text" placeholder="Buscar...">
-        </li>
-        <li>Salir</li>
+        <li class="navbar-item">Novedades</li>
+        <li class="navbar-item">Series</li>
+        <li class="navbar-item">Películas</li>
+        <li class="navbar-item">Favoritos</li>
+        <li class="navbar-item">Salir</li>
       </ul>
     </nav>
   </header>
