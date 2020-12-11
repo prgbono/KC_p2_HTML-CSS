@@ -1,19 +1,23 @@
 .navbar {
   position: fixed;
   background-color: #111;
-  width: 100%;
+  /* width: 100%;
   top: 0;
   left: 0;
-  height: var(--navbar-height);
-  display: flex;
-  /* justify-content: space-evenly; */
+  height: var(--navbar-height); */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr 0.5fr;
+  /* grid-template-rows: auto; */
+  grid-template-areas: 
+    "logo . buscador burger-icon-label";
+  gap: 1rem;
+  /* justify-items: end; */
 }
 
 .logo{
-  margin-right: auto;
-  /* align-self: flex-start; */
-  /* left: 0;
-  justify-content: flex-start; */
+  grid-area: logo;
+  /* margin-right: auto; */
 }
 
 nav ul{
@@ -22,19 +26,26 @@ nav ul{
   padding: 0;
 }
 
-.form-buscador {
+.buscador {
+  grid-area: buscador;
+  /* justify-items: end; */
+  /* align-items: stretch; */
   align-self: center;
-  height: 1.5rem;
+  justify-self: end;
+  /*height: 1.5rem;
   border: 1px solid lightcoral;  
-  color: lightcyan;
+  color: lightcyan; */
 }
 
-.form-buscador > input {
+.buscador > form > input {
   background-color: #999;
 }
 
 #burger-icon {
-  display: none;
+  grid-area: burger-icon-label;
+  align-self: center;
+  justify-self: end;
+  
 }
 
 /* abierto */
@@ -53,12 +64,15 @@ nav ul{
 }
 
 .burger-icon-label {
+  /* grid-area: burger-icon-label;
+  justify-items: end;
   background-color: red;
   position: absolute;
   top: 0;
   right: 0;
   width: 3rem;
-  height: 3rem;
+  height: 3rem; */
+
   /* no es necesario para dispositivo táctil */
   /* cursor: pointer; */
 }
@@ -71,7 +85,6 @@ nav ul{
   position: absolute;
   left: 0.45rem;
   top: 0.65rem;
-
   box-shadow: 0 0.25rem 0 0 darkgray, 0 0.5rem 0 0 darkgray;
 }
 

@@ -6,7 +6,7 @@
   <title>KC Bootcamp Web 10 - Fco Ríos - Contenido</title>
   <link rel="stylesheet" href="./css/common/reset.css" />
   <link rel="stylesheet" href="./css/contenido/contenido-styles.css" />
-  <link rel="stylesheet" href="./css/contenido/contenido.css" />
+  <link rel="stylesheet" href="./css/contenido/contenido-navbar.css" />
   
 </head>
 <body>
@@ -16,11 +16,12 @@
         <img src="./assets/logo.png" alt="Logo"/>
       </div>
       
-      <form class="form-buscador">
-        <!-- FIXME: sin funcionalidad -->
-        <input type="text" placeholder="Buscar..." name="buscador" id="buscador">
-        <label for="buscador"></label>  
-      </form>
+      <div class="buscador">
+        <form>
+          <input type="text" placeholder="Buscar..." name="input-buscador" id="input-buscador">
+          <label for="input-buscador"></label>  
+        </form>
+      </div>
 
       <input type="checkbox" id="burger-icon" />
       <label for="burger-icon" class="burger-icon-label"></label>
