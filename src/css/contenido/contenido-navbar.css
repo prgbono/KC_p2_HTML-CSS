@@ -10,7 +10,7 @@
   grid-template-columns: 1fr 1fr 3fr 0.5fr;
   /* grid-template-rows: auto; */
   grid-template-areas: 
-    "logo . buscador burger-icon-label";
+    "logo . buscador menu";
   gap: 1rem;
   /* justify-items: end; */
 }
@@ -42,14 +42,14 @@ nav ul{
 }
 
 #burger-icon {
-  grid-area: burger-icon-label;
+  /* grid-area: menu;
   align-self: center;
-  justify-self: end;
-  
+  justify-self: end;*/
+  display: none; 
 }
 
 /* abierto */
-#burger-icon:checked ~ .navbar-list {
+/* #burger-icon:checked ~ .navbar-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,15 +57,20 @@ nav ul{
   background-color: black;
   height: calc(100vh - var(--navbar-height));
   opacity: 0.85;
-}
+} */
 
 .navbar .burger-icon-label {
-  display: none;
+  /* grid-area: menu; */
+  /* align-self: center;
+  justify-self: end; */
+  /* display: none; */
 }
 
 .burger-icon-label {
-  /* grid-area: burger-icon-label;
-  justify-items: end;
+  /* grid-area: menu; */
+  /* align-self: center; */
+  /* justify-self: center; */
+  /*justify-items: end;
   background-color: red;
   position: absolute;
   top: 0;
@@ -78,13 +83,20 @@ nav ul{
 }
 
 .burger-icon-label:before {
+  /* grid-area: menu; */
   content: '';
   background-color: darkgray;
+  
   width: 1rem;
   height: 0.12rem;
-  position: absolute;
-  left: 0.45rem;
-  top: 0.65rem;
+  position: absolute; 
+  right: 0.45rem;
+  top: 0.65rem; 
+
+  /* align-self: center;
+  justify-self: center;
+  justify-items: end; */
+
   box-shadow: 0 0.25rem 0 0 darkgray, 0 0.5rem 0 0 darkgray;
 }
 

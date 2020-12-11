@@ -1,8 +1,10 @@
 body {
-  color: #fff;
+  color: #f1f1f1;
+  font-weight: lighter;
 }
 
+/*
 :root {
   --navbar-height: 4rem;
-}
+} */
 
