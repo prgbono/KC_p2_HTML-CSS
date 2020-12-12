@@ -28,10 +28,6 @@
   background-color: rgba(12, 12, 12, 0.65);
 }
 
-.items-container li{
-  padding: 0 0.5rem;
-}
-
 .items-container li:hover{ 
   color: red;
   cursor: pointer
@@ -58,7 +54,6 @@
 }
 
 .icon:hover{
-  background: red;
   cursor: pointer;
 }
 
@@ -109,13 +104,13 @@ input[type="checkbox"]{
     left: 0;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     flex: 4;
   }
 
   .items-container li{
-    margin: 0 5px;
+    margin: 0 1rem;
   }
-
   
   .logo{
     display: initial;
