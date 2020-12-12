@@ -11,17 +11,21 @@ a:focus {
   cursor: pointer;
 }
 
-body {
-  color: #f1f1f1;
-  font-weight: lighter;
-  background-color: #111;
-}
-
 header{
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   height: var(--navbar-height);
+  z-index: 10;
 }
+
+
+body {
+  padding-top: var(--navbar-height);
+  color: #f1f1f1;
+  font-weight: lighter;
+  background-color: #111;
+}
+
 

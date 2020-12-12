@@ -7,8 +7,8 @@
 
   <link rel="stylesheet" href="./css/common/reset.css" />
   <link rel="stylesheet" href="./css/contenido/contenido-styles.css" />
-  <!-- <link rel="stylesheet" href="./css/contenido/contenido-navbar.css" /> -->
-  <link rel="stylesheet" href="./css/contenido/navbar.css" />
+  <link rel="stylesheet" href="./css/contenido/contenido-navbar.css" />
+  <link rel="stylesheet" href="./css/contenido/contenido-rejilla.css" />
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 </head>
@@ -41,46 +41,422 @@
   </header>
 
   <main>
-    <section aria-label="Novedades de la plataforma">
-      <!-- TODO: Usar la etiqueta article como está en el ejemplo del CV? -->
-      <img src="./assets/movies/AmericanPsycho.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/batman.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/brick.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/DarkCity.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/DonnieDarko.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/eternal.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/FightClub.jpg" alt="Aquí el título extraído de la API"/>
-    </section>
-    <section aria-label="Series de la plataforma">
-      Series
-      <img src="./assets/movies/futurama.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/inglorious.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/layerCake.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/Lock&stock.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/matrix.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/Oldboy.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/rocknrolla.jpg" alt="Aquí el título extraído de la API"/>
-    </section>
-    <section aria-label="Películas de la plataforma">
-      Películas
-      <img src="./assets/movies/sinSity.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/slevin.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/snatch.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/troy.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/underworld.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/vanHelsing.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/vendetta.jpg" alt="Aquí el título extraído de la API"/>
-    </section>
-    <section aria-label="Series y películas favoritas del usuario en la plataforma">
-      Favoritos
-      <img src="./assets/movies/FightClub.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/rocknrolla.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/snatch.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/Lock&stock.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/underworld.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/inglorious.jpg" alt="Aquí el título extraído de la API"/>
-      <img src="./assets/movies/slevin.jpg" alt="Aquí el título extraído de la API"/>
-    </section>
+    <div class="container">
+
+      <!-- <section aria-label="Novedades de la plataforma"> -->
+        <!-- TODO: Usar la etiqueta article como está en el ejemplo del CV? -->
+
+        <div class="gallery-container w-1 h-1">
+          <div class="gallery-item">
+            <div class="category">Novedades</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3 h-2">
+        <div class="gallery-container w-3"></div>
+          <div class="gallery-item">
+            <div class="image">
+              <img src="./assets/movies/FightClub.jpg" alt="El Club de la lucha"/>
+              <!-- <img src="https://source.unsplash.com/1600x900/?nature" alt="nature"> -->
+            </div>
+            <div class="text">Nature</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-2 h-3">
+          <div class="gallery-item">
+            <div class="image">
+              <img src="./assets/movies/batman.jpg" alt="Batman Returns"/>
+              <!-- <img src="https://source.unsplash.com/1600x900/?people" alt="people"> -->
+            </div>
+            <div class="text">People</div>
+          </div>
+        </div>
+
+        <div class="gallery-container h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <img src="./assets/movies/brick.jpg" alt="The Brick"/>
+              <!-- <img src="https://source.unsplash.com/1600x900/?sport" alt="sport"> -->
+            </div>
+            <div class="text">Sport</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?fitness" alt="fitness"> -->
+              <img src="./assets/movies/snatch.jpg" alt="Snatch"/>
+            </div>
+            <div class="text">Fitness</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-4 h-1">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?food" alt="food"> -->
+              <img src="./assets/movies/Lock&stock.jpg" alt="Lock & Stock"/>
+            </div>
+            <div class="text">Food</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?travel" alt="travel"> -->
+              <img src="./assets/movies/underworld.jpg" alt="Underworld"/>
+            </div>
+            <div class="text">Travel</div>
+          </div>
+        </div>
+
+        <div class="gallery-container h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?art" alt="art"> -->
+              <img src="./assets/movies/inglorious.jpg" alt="Malditos Bastardos"/>
+            </div>
+            <div class="text">Art</div>
+          </div>
+        </div>
+
+
+      <!-- </section> -->
+      
+      <!-- <section aria-label="Series de la plataforma"> -->
+
+        <div class="gallery-container w-1 h-1">
+          <div class="gallery-item">
+            <div class="category">Series</div>
+          </div>
+        </div>
+
+        <div class="gallery-container h-2 w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <img src="./assets/movies/AmericanPsycho.jpg" alt="American Psycho"/>
+              <!-- <img src="https://source.unsplash.com/1600x900/?art" alt="art"> -->
+            </div>
+            <div class="text">Art</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-1 h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?nature" alt="nature"> -->
+              <img src="./assets/movies/DarkCity.jpg" alt="Dark City"/>
+            </div>
+            <div class="text">Nature</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?cars" alt="cars"> -->
+              <img src="./assets/movies/eternal.jpg" alt="Eternal"/>
+            </div>
+            <div class="text">Cars</div>
+            <div class="hidden-info">Esta es la info del hover</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?travel" alt="travel"> -->
+              <img src="./assets/movies/sinSity.jpg" alt="Sin city"/>
+            </div>
+            <div class="text">Travel</div>
+          </div>
+        </div>
+
+        <div class="gallery-container h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?art" alt="art"> -->
+              <img src="./assets/movies/slevin.jpg" alt="El caso Slevin"/>
+            </div>
+            <div class="text">Art</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3 h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?nature" alt="nature"> -->
+              <img src="./assets/movies/troy.jpg" alt="Troya"/>
+            </div>
+            <div class="text">Nature</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3 h-3">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?people" alt="people"> -->
+              <img src="./assets/movies/vanHelsing.jpg" alt="Van Helsing"/>
+            </div>
+            <div class="text">People</div>
+          </div>
+        </div>  
+
+      <!-- </section> -->
+
+      <!-- <section aria-label="Películas de la plataforma"> -->
+        <div class="gallery-container w-1 h-1">
+          <div class="gallery-item">
+            <div class="category">Películas</div>
+          </div>
+        </div>
+
+        <div class="gallery-container h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?sport" alt="sport"> -->
+              <img src="./assets/movies/vendetta.jpg" alt="V de Vendetta"/>
+            </div>
+            <div class="text">Sport</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-1 h-3">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?travel" alt="travel"> -->
+              <img src="./assets/movies/futurama.jpg" alt="Futurama"/>
+            </div>
+            <div class="text">Travel</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3 h-1">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?art" alt="art"> -->
+              <img src="./assets/movies/layerCake.jpg" alt="Layer Cake"/>
+            </div>
+            <div class="text">Art</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3 h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?nature" alt="nature"> -->
+              <img src="./assets/movies/matrix.jpg" alt="Matrix"/>
+            </div>
+            <div class="text">Nature</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3 h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?nature" alt="nature"> -->
+              <img src="./assets/movies/Oldboy.jpg" alt="Oldboy"/>
+            </div>
+            <div class="text">Nature</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3 h-3">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?people" alt="people"> -->
+              <img src="./assets/movies/rocknrolla.jpg" alt="Rock'n Rolla"/>
+            </div>
+            <div class="text">People</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?travel" alt="travel"> -->
+              <img src="./assets/movies/FightClub.jpg" alt="Fight Club"/>
+            </div>
+            <div class="text">Travel</div>
+          </div>
+        </div>
+
+        <div class="gallery-container h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?art" alt="art"> -->
+              <img src="./assets/movies/rocknrolla.jpg" alt="Rock'n Rolla"/>
+            </div>
+            <div class="text">Art</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?cars" alt="cars"> -->
+              <img src="./assets/movies/snatch.jpg" alt="Snatch"/>
+            </div>
+            <div class="text">Cars</div>
+            <div class="hidden-info">Esta es la info del hover</div>
+          </div>
+        </div>  
+
+      <!-- </section> -->
+
+      <!-- <section aria-label="Series y películas favoritas del usuario en la plataforma"> -->
+        <div class="gallery-container w-1 h-1">
+          <div class="gallery-item">
+            <div class="category">Favoritos</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?travel" alt="travel"> -->
+              <img src="./assets/movies/Lock&stock.jpg" alt="Lock & Stock"/>
+            </div>
+            <div class="text">Travel</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3 h-3">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?people" alt="people"> -->
+              <img src="./assets/movies/underworld.jpg" alt="Underworld"/>
+            </div>
+            <div class="text">People</div>
+          </div>
+        </div>
+
+        <div class="gallery-container h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?sport" alt="sport"> -->
+              <img src="./assets/movies/inglorious.jpg" alt="Inglorious"/>
+            </div>
+            <div class="text">Sport</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?fitness" alt="fitness"> -->
+              <img src="./assets/movies/slevin.jpg" alt="El caso Slevin"/>
+            </div>
+            <div class="text">Fitness</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-4 h-1">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?food" alt="food"> -->
+              <img src="./assets/movies/futurama.jpg" alt="Futurama"/>
+            </div>
+            <div class="text">Food</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?travel" alt="travel"> -->
+              <img src="./assets/movies/inglorious.jpg" alt="Inglorious"/>
+            </div>
+            <div class="text">Travel</div>
+          </div>
+        </div>
+
+        <div class="gallery-container h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?art" alt="art"> -->
+              <img src="./assets/movies/layerCake.jpg" alt="Layer Cake"/>
+            </div>
+            <div class="text">Art</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?travel" alt="travel"> -->
+              <img src="./assets/movies/Lock&stock.jpg" alt="Lock & Stock"/>
+            </div>
+            <div class="text">Travel</div>
+          </div>
+        </div>
+
+        <div class="gallery-container h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?art" alt="art"> -->
+              <img src="./assets/movies/matrix.jpg" alt="Matrix"/>
+            </div>
+            <div class="text">Art</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3 h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?nature" alt="nature"> -->
+              <img src="./assets/movies/Oldboy.jpg" alt="Oldboy"/>
+            </div>
+            <div class="text">Nature</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3 h-3">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?people" alt="people"> -->
+              <img src="./assets/movies/slevin.jpg" alt="El caso Slevin"/>
+            </div>
+            <div class="text">People</div>
+          </div>
+        </div>
+
+        <div class="gallery-container h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?sport" alt="sport"> -->
+              <img src="./assets/movies/snatch.jpg" alt="Snatch, cerdos y diamantes"/>
+            </div>
+            <div class="text">Sport</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?travel" alt="travel"> -->
+              <img src="./assets/movies/troy.jpg" alt="Troya"/>
+            </div>
+            <div class="text">Travel</div>
+          </div>
+        </div>
+
+        <div class="gallery-container h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <!-- <img src="https://source.unsplash.com/1600x900/?art" alt="art"> -->
+              <img src="./assets/movies/underworld.jpg" alt="Underworld"/>
+            </div>
+            <div class="text">Art</div>
+          </div>
+        </div>
+
+      <!-- </section> -->
+      
+    </div>
   </main>
   <!-- <footer></footer> -->
   <!-- TODO: Hacer un footer con info de contacto para meter el tag semántico <address> (con info de contacto) -->
