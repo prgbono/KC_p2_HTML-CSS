@@ -35,12 +35,13 @@
 
 .gallery-item .details{
   position: absolute;
-  top: 4rem;
+  top: 20px;
   right: 10px;
   bottom: 20px;
   left: 10px;
   background: rgba(12, 12, 12, 0.7);
   transform: scale(0);
+  /* transform: scale(1);  Comment for Dev purposes*/
   transition: .5s ease-in-out;
 }
 
@@ -81,6 +82,26 @@
   float: right;
 }
 
+.favourite-icon-disabled{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 2rem;
+  color: red;
+}
+
+.favourite-icon-enabled{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 2rem;
+  color: red;
+  visibility: hidden;
+}
+
+#favourite-toggle:checked ~ .favourite-icon-enabled{
+  visibility: visible;
+}
 
 .w-1{grid-column: span 1;}
 .w-2{grid-column: span 2;}
@@ -101,8 +122,8 @@
     .container{
         grid-template-columns: repeat(3,1fr);
     }
-    .w-1,.w-2,.w-3,.w-4,.w-5,.w-6{
-        grid-column:span 2;
+    .w-3,.w-4,.w-5,.w-6{
+        grid-column:span 3;
     }
 }
 
