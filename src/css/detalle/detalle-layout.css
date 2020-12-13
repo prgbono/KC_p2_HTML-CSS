@@ -19,5 +19,28 @@
   grid-auto-rows: 1fr 1fr 1fr;
   gap: 1rem;
   row-gap: 1em;
+  padding: 1.5rem;
+}
+
+.related-info h3{
+  padding-left: 1.5rem;
+}
+
+@media all and (max-width: 768px) {
+  /* se aplica cuando se baja de 768 */
+    .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .related-box{
+    {
+      grid-template-columns: repeat(1,1fr);
+    }
+}
+  
+
+@media screen and (max-width:500px){
+    .container{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
