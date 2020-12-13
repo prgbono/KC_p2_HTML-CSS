@@ -25,7 +25,7 @@
   object-fit: cover;
   /* Mostramos a partir del centro de la foto */
   object-position:50% 50%;
-  cursor:pointer;
+  /* cursor:pointer; */
   transition:.8s ease-in-out;
 }
 
@@ -70,16 +70,23 @@
 }
 
 .gallery-item .details .content .rating {
-  margin: 10px 0 0;
-  padding: 0;
+  /* margin: 10px 0 0;
+  padding: 0; */
+  margin: 0.5rem auto;
+  padding: 0.5rem;
   color: yellow;
   float: left;
 }
 
-.gallery-item .details .content span {
-  margin: 10px 0 0;
-  padding: 0;
+.gallery-item .details .content button {
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  /* padding: 0; */
   float: right;
+  background-color: red;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
 }
 
 .favourite-icon-disabled{
