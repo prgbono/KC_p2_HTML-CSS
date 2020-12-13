@@ -1,0 +1,22 @@
+.container{
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-rows: auto;
+  gap: 1rem;
+}
+
+.item-info{
+  padding: 2rem;
+}
+
+.related-info{
+  border: 3px solid yellowgreen;
+}
+
+.item-video{
+
+}
+
+.item-details h2{
+  color: red;
+}

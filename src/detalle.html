@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./css/common/reset.css" />
   <link rel="stylesheet" href="./css/contenido/contenido-styles.css" />
   <link rel="stylesheet" href="./css/contenido/contenido-navbar.css" />
+  <link rel="stylesheet" href="./css/detalle/detalle-layout.css" />
 </head>
 <body>
   <header>
@@ -24,7 +25,6 @@
           </label>
         </li>
         <div class="items-container">
-          <!-- TODO: Add icons to the navbar and the Grid tecnique for not loosing them -->
           <li>Novedades</li>
           <li>Series</li>
           <li>Películas</li>
@@ -35,9 +35,48 @@
     </nav>
   </header>
   <main>
-    <section aria-label="Trailer / Carátula">Video/Carátula</section>
-    <section aria-label="Ficha técnica">Ficha técnica item</section>
-    <aside></aside>
+    <div class="container">
+      <div class="item-info">
+        <!-- <section aria-label="Trailer / Carátula">Video/Carátula -->
+        <div class="item-video">
+          <video controls autoplay loop>
+            <source src="./fightClub2.mp4" type="video/mp4">
+            Tu navegador no implementa el elemento <code>video</code>.
+          </video>
+        </div>
+        <!-- </section> -->
+        <!-- <section aria-label="Ficha técnica">Ficha técnica item -->
+        <div class="item-details">
+            <h2>Fight Club</h2>
+            <p>By David Fincher, Oct 1999</p>
+            <p>Thriller. Written by Chuck Palahniuk (novel)</p>
+            <p>A ticking-time-bomb insomniac and a slippery soap salesman channel primal male 
+              aggression into a shocking new form of therapy. Their concept catches on, with 
+              underground "fight clubs" forming in every town, until an eccentric gets in the 
+              way and ignites an out-of-control spiral toward oblivion.
+            </p>
+            <p>Cast: Brad Pitt, Edward Norton, Helena Bonham Carter, Jared Leto, Meat Loaf.</p>
+        </div>
+        <!-- </section> -->
+      </div>
+      <!-- <aside> -->
+      <div class="related-info">
+        <p>A ticking-time-bomb insomniac and a slippery soap salesman channel primal male 
+              aggression into a shocking new form of therapy. Their concept catches on, with 
+              underground "fight clubs" forming in every town, until an eccentric gets in the 
+              way and ignites an out-of-control spiral toward oblivion.
+        </p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span class="year">Apr 2000</span>
+      </div>
+      <!-- </aside> -->
+    </div>
   </main>
 </body>
 </html>
