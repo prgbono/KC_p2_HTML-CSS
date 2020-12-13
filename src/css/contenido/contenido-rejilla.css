@@ -35,12 +35,12 @@
 
 .gallery-item .details{
   position: absolute;
-  top: 20px;
+  top: 4rem;
   right: 10px;
   bottom: 20px;
   left: 10px;
   background: rgba(12, 12, 12, 0.7);
-  transform: scaleY(0);
+  transform: scale(0);
   transition: .5s ease-in-out;
 }
 
@@ -66,6 +66,19 @@
 .gallery-item .details .content p {
   margin: 10px 0 0;
   padding: 0;
+}
+
+.gallery-item .details .content .rating {
+  margin: 10px 0 0;
+  padding: 0;
+  color: yellow;
+  float: left;
+}
+
+.gallery-item .details .content span {
+  margin: 10px 0 0;
+  padding: 0;
+  float: right;
 }
 
 
