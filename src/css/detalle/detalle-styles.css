@@ -1,0 +1,23 @@
+.related-item-media{
+  width: 8rem;
+  object-fit: cover;
+}
+
+.related-item-info{
+  
+}
+
+.rating {
+  margin: 1rem auto;
+  color: yellow;
+  float: left;
+  padding: 5px;
+}
+
+.genre{
+  margin: 1rem;
+  float: right;
+  background-color: red;
+  border-radius: 10px;
+  padding: 5px;
+}

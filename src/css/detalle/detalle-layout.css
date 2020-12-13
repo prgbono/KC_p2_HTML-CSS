@@ -10,7 +10,7 @@
 }
 
 .related-info{
-  border: 3px solid yellowgreen;
+  /* justify-content: space-between; */
 }
 
 .item-video{
@@ -20,3 +20,12 @@
 .item-details h2{
   color: red;
 }
+
+.related-box{
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  grid-auto-rows: 1fr 1fr 1fr;
+  gap: 1rem;
+  row-gap: 1em;
+}
+
