@@ -4,10 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KC Bootcamp Web 10 - Fco Ríos - Detalle</title>
+  <link rel="stylesheet" href="./css/common/reset.css" />
+  <link rel="stylesheet" href="./css/contenido/contenido-styles.css" />
+  <link rel="stylesheet" href="./css/contenido/contenido-navbar.css" />
 </head>
 <body>
   <header>
-    <nav></nav>
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li class="logo">Xilften</li>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <li class="search-bar">
+          <input type="search" placeholder="Buscar">
+          <label class="icon">
+            <span class="fas fa-search"></span>
+          </label>
+        </li>
+        <div class="items-container">
+          <!-- TODO: Add icons to the navbar and the Grid tecnique for not loosing them -->
+          <li>Novedades</li>
+          <li>Series</li>
+          <li>Películas</li>
+          <li>Favoritos</li>
+          <li><a href="index.html">Salir</a></li>
+        </div>
+      </ul>
+    </nav>
   </header>
   <main>
     <section aria-label="Trailer / Carátula">Video/Carátula</section>
