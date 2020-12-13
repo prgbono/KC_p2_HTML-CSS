@@ -93,11 +93,6 @@ input[type="checkbox"]{
 
 @media all and (min-width: 768px) {
   /* se aplica cuando sube de 768 */
-  nav {
-    /* TODO: Esto vale??*/
-    padding: 10px 40px 10px 0px;
-  }
-
   .items-container{
     position: initial;
     height: auto;

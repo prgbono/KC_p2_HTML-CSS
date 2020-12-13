@@ -25,7 +25,6 @@
   object-fit: cover;
   /* Mostramos a partir del centro de la foto */
   object-position:50% 50%;
-  /* cursor:pointer; */
   transition:.8s ease-in-out;
 }
 
@@ -41,7 +40,6 @@
   left: 10px;
   background: rgba(12, 12, 12, 0.7);
   transform: scale(0);
-  /* transform: scale(1);  Comment for Dev purposes*/
   transition: .5s ease-in-out;
 }
 
@@ -70,8 +68,6 @@
 }
 
 .gallery-item .details .content .rating {
-  /* margin: 10px 0 0;
-  padding: 0; */
   margin: 0.5rem auto;
   padding: 0.5rem;
   color: yellow;
@@ -81,7 +77,6 @@
 .gallery-item .details .content button {
   margin: 0.5rem auto;
   padding: 0.5rem;
-  /* padding: 0; */
   float: right;
   background-color: red;
   border-radius: 10px;
